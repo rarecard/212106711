@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation: rect_circle 10s infinite;
+        }
+
+        @keyframes rect_circle {
+            from{
+                left: 0px;
+                top: 0px;
+                background-color: lightcoral;
+                
+            }
+            25%{
+                left: 200px;
+                top: 0px;
+                background: lightskyblue;
+                transform: rotateX(30deg);
+            }
+            50%{
+                left: 200px;
+                top: 200px;
+                background-color: lightgoldenrodyellow;
+               
+            }
+            75%{
+                left: 0px;
+                top: 200px;
+                background-color: lightslategray;
+                
+            to{
+                background-color: lightcoral;
+                left: 0px;
+                top: 0px;
+                
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div>123</div>
+</body>
+</html>
